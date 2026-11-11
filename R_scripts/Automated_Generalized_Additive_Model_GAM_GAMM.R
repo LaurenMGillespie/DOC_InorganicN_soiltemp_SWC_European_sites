@@ -2,7 +2,7 @@
 # at the end, the models are compared with ANOVA, and everything is bundled into a list and saved as an RDS file
 
 
-library(dplyr)
+library("dplyr")
 
 soil_chem_filled = read.csv("soil_chem_filled_na_seadec_20250506.csv", sep = ",", fileEncoding = "latin1")  %>% 
   dplyr::mutate(site_name = case_when( 
@@ -14,7 +14,7 @@ soil_chem_filled = read.csv("soil_chem_filled_na_seadec_20250506.csv", sep = ","
 
 
 ### GAM automated soil chem ####
-library(mgcv)
+library("mgcv")
 run_GAMs_soil_chem = function(df, target_site, target_parameter, number_of_months, number_of_years) { #, supp_obs
   # GAM
   mod0_GAM = df %>% 
