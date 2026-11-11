@@ -1,10 +1,15 @@
 # In order to run GAM and GAMMs on the data for one variable at one site measured at multiple soil depths with increasing complexity
 # at the end, the models are compared with ANOVA, and everything is bundled into a list and saved as an RDS file
 
+# The cleaned, gap-filled time series can be found in the following open access B2Share repository: 
+# Gillespie, L. M., Andrews, C., Augustaitis, A., Baužienė, I., Benham, S. E., Buchmann, N., et al. (2026). Long-term time series 
+# data of dissolved organic carbon, inorganic nitrogen, temperature, and water content in ten European sites [Data set]. 
+# https://doi.org/10.23728/b2share.nzw7b-5f570
+
 
 library("dplyr")
 
-soil_chem_filled = read.csv("soil_chem_filled_na_seadec_20250506.csv", sep = ",", fileEncoding = "latin1")  %>% 
+soil_chem_filled = read.csv("Gillespie_et_all_time_series_DOC_IN_soiltemp_SWC_European_sites.csv", sep = ",", fileEncoding = "latin1")  %>% 
   dplyr::mutate(site_name = case_when( 
     grepl("belboden", site_name) ~ "LTER Zöbelboden", #There tends to be issues with the accent with Zöbelboden, this makes sure the name is correct
     TRUE ~ site_name
