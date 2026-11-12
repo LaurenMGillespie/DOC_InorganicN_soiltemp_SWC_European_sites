@@ -92,7 +92,6 @@ best_models_Ali[["Ali_soil_chem_int_n_nh4_mod1"]] = gam_results$Ali_soil_chem_in
 best_models_Ali[["Ali_soil_chem_int_n_no3_mod1"]] = gam_results$Ali_soil_chem_int_n_no3[['mod1']] 
 best_models_Ali[["Ali_soil_chem_int_soil_temp_mod4"]] = gam_results$Ali_soil_chem_int_soil_temp[['mod4']]
 best_models_Ali[["Ali_soil_chem_swc_mod5"]] = gam_results$Ali_soil_chem_swc[['mod5']]
-setwd("C:/Users/...")
 saveRDS(best_models_Ali, file = "best_models_Ali")
 
 best_models_Auk <- list()
@@ -102,7 +101,6 @@ best_models_Auk[["Auk_soil_chem_int_soil_temp_5cm_10cm_20cm_mod5"]] = gam_result
 best_models_Auk[["Auk_soil_chem_int__soil_temp_undixieme_mod2"]] = gam_results$Auk_soil_chem_int__soil_temp_undixieme[['mod2']]
 best_models_Auk[["Auk_soil_chem_int_soil_temp_mod2"]] = gam_results$Auk_soil_chem_int_soil_temp[['mod2']]
 best_models_Auk[["Auk_soil_chem_int_swc_20251128_mod4"]] = gam_results$Auk_soil_chem_int_swc[['mod4']]
-setwd("C:/Users/...")
 saveRDS(best_models_Auk, file = "best_models_Auk")
 
 best_models_Bra <- list()
@@ -118,7 +116,6 @@ best_models_Bra[["Bra_soil_chem_int_n_no3_depth50cm_70cm_mod1"]] = gam_results$B
 best_models_Bra[["Bra_soil_chem_int_soil_temp_depth2cm_5cm_mod4"]] = gam_results$Bra_soil_chem_int_soil_temp_depth2cm_5cm[['mod4']]  
 best_models_Bra[["Bra_soil_chem_int_soil_temp_depth2_5cm_12_5cm_30cm_60cm_mod1"]] = gam_results$Bra_soil_chem_int_soil_temp_depth2_5cm_12_5cm_30cm_60cm[['mod1']] 
 best_models_Bra[["Bra_soil_chem_int_swc_mod3"]] = gam_results$Bra_soil_chem_int_swc[['mod3']]
-setwd("C:/Users/...")
 saveRDS(best_models_Bra, file = "best_models_Bra")
 
 best_models_Cai <- list()
@@ -127,7 +124,6 @@ best_models_Cai[["Cai_soil_chem_int_n_no3_mod1"]] = gam_results$Cai_soil_chem_in
 best_models_Cai[["Cai_soil_chem_n_no3_50cm_mod1"]] = gam_results$Cai_soil_chem_n_no3_50cm[['mod1']]
 best_models_Cai[["Cai_soil_chem_int_soil_temp_mod4"]] = gam_results$Cai_soil_chem_int_soil_temp[['mod4']] 
 best_models_Cai[["Cai_soil_chem_swc_mod1"]] = gam_results$Cai_soil_chem_swc[['mod1']] 
-setwd("C:/Users/...")
 saveRDS(best_models_Cai, file = "best_models_Cai")
 
 best_models_Col <- list()
@@ -144,7 +140,6 @@ best_models_Col[["Col_soil_chem_int_soil_temp_mod5"]] = gam_results$Col_soil_che
 best_models_Col[["Col_soil_chem_soil_temp_20cm_mod2"]] = gam_results$Col_soil_chem_soil_temp_20cm[['mod2']] 
 best_models_Col[["Col_soil_chem_int_swc_mod4"]] = gam_results$Col_soil_chem_int_swc[['mod4']]
 best_models_Col[["Col_soil_chem_swc_2cm_mod2"]] = gam_results$Col_soil_chem_swc_2cm[['mod2']]
-setwd("C:/Users/...")
 saveRDS(best_models_Col, file = "best_models_Col")
 
 best_models_Dav <- list()
@@ -154,7 +149,6 @@ best_models_Dav[["Dav_soil_chem_int_n_no3_depth0cm_15cm_50cm_mod0_GAM"]] = gam_r
 best_models_Dav[["Dav_soil_chem_n_no3_depth80cm_mod0_GAM"]] = gam_results$Dav_soil_chem_n_no3_depth80cm[['mod0_GAM']] 
 best_models_Dav[["Dav_soil_chem_int_soil_temp_20250506_mod0_GAMM"]] = gam_results$Dav_soil_chem_int_soil_temp_20250506[['mod0_GAMM']] 
 best_models_Dav[["Dav_soil_chem_int_swc_20250506_mod1"]] = gam_results$Dav_soil_chem_int_swc_20250506[['mod1']] 
-setwd("C:/Users/...")
 saveRDS(best_models_Dav, file = "best_models_Dav_20250506")
 
 best_models_Lae <- list()
@@ -166,7 +160,6 @@ best_models_Lae[["Lae_soil_chem_int_n_nh4_mod0_GAM"]] = gam_results$Lae_soil_che
 best_models_Lae[["Lae_soil_chem_int_n_no3_mod0_GAM"]] = gam_results$Lae_soil_chem_int_n_no3[['mod0_GAM']] 
 best_models_Lae[["Lae_soil_chem_int_soil_temp_20250506_mod1"]] = gam_results$Lae_soil_chem_int_soil_temp_20250506[['mod1']]  
 best_models_Lae[["Lae_soil_chem_int_swc_20250506_mod1"]] = gam_results$Lae_soil_chem_int_swc_20250506[['mod1']]  
-setwd("C:/Users/...")
 saveRDS(best_models_Lae, file = "best_models_Lae_20250506")
 
 best_models_Moo <- list()
@@ -174,7 +167,6 @@ best_models_Moo[["Moo_soil_chem_int_doc_mod4"]] = gam_results$Moo_soil_chem_int_
 best_models_Moo[["Moo_soil_chem_int_n_nh4_mod1"]] = gam_results$Moo_soil_chem_int_n_nh4[['mod1']]
 best_models_Moo[["Moo_soil_chem_int_n_no3_mod1"]] = gam_results$Moo_soil_chem_int_n_no3[['mod1']]
 best_models_Moo[["Moo_soil_chem_int_soil_temp_mod4"]] = gam_results$Moo_soil_chem_int_soil_temp[['mod4']]
-setwd("C:/Users/...")
 saveRDS(best_models_Moo, file = "best_models_Moo")
 
 best_models_Wyt <- list()
@@ -183,7 +175,6 @@ best_models_Wyt[["Wyt_soil_chem_int_n_nh4_mod4"]] = gam_results$Wyt_soil_chem_in
 best_models_Wyt[["Wyt_soil_chem_int_n_no3_mod1"]] = gam_results$Wyt_soil_chem_int_n_no3[['mod1']]
 best_models_Wyt[["Wyt_soil_chem_int_soil_temp_mod4"]] = gam_results$Wyt_soil_chem_int_soil_temp[['mod4']]
 best_models_Wyt[["Wyt_soil_chem_swc_mod2"]] = gam_results$Wyt_soil_chem_swc[['mod2']]
-setwd("C:/Users/...")
 saveRDS(best_models_Wyt, file = "best_models_Wyt")
 
 best_models_ZOE_IP123 <- list()
@@ -200,5 +191,4 @@ best_models_ZOE_IP123[["LTE_soil_chem_int_n_no3_6_75cm_13cm_15cm_30cm_IP1_IP3_mo
 best_models_ZOE_IP123[["LTE_soil_chem_int_n_no3_32_5cm35cm45cm90_5_104_IP1_IP3_mod0_GAM"]] = gam_results$LTE_soil_chem_int_n_no3_32_5cm35cm45cm90_5_104_IP1_IP3[['mod0_GAM']]
 best_models_ZOE_IP123[["LTE_soil_chem_int_soil_temp_IP1_IP3_20250506_mod2"]] = gam_results$LTE_soil_chem_int_soil_temp_IP1_IP3_20250506[['mod2']]
 best_models_ZOE_IP123[["LTE_soil_chem_int_swc_5cm_15cm_40cm_58_IP1_IP3_mod1"]] = gam_results$LTE_soil_chem_int_swc_5cm_15cm_40cm_58_IP1_IP3[['mod1']]
-setwd("C:/Users/...")
 saveRDS(best_models_ZOE_IP123, file = "best_models_ZOE_IP123")
